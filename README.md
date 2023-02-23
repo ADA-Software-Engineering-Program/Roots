@@ -28,6 +28,6 @@ The community features will be moderated to ensure a safe and respectful environ
 - npm install
 - npm run dev
 - npm start to run the app in the development mode.
-- Open http://localhost:5173 to view it in your browser
+- Open http://localhost:5174/ to view it in your browser
 
 
