@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey, welcome to ROOTS! How can I assist you?",
+          "Hello! How can I help you today?",
+          "Hi there, what brings you to ROOTS?",
+          "Hello, welcome to ROOTS! How can I assist you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "I have to go"
+        ],
+        "responses": [
+          "Goodbye! Thanks for using ROOTS.",
+          "Take care! We hope to see you back at ROOTS soon.",
+          "Have a great day! Don't hesitate to return to ROOTS if you need further assistance.",
+          "Bye-bye! It was a pleasure helping you today."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "I appreciate your help",
+          "Thank you so much"
+        ],
+        "responses": [
+          "You're welcome! We're always here to help at ROOTS.",
+          "No problem! Let us know if you need any further assistance.",
+          "Anytime! We're glad to be of assistance.",
+          "Glad to help! Don't hesitate to come back to ROOTS if you need anything else."
+        ]
+      },
+      {
+        "tag": "courses",
+        "patterns": [
+          "What courses do you offer?",
+          "Can you tell me about your courses?",
+          "Do you have any courses available?",
+          "What kind of courses can I find on ROOTS?"
+        ],
+        "responses": [
+          "At ROOTS, we offer a range of high-quality courses in Nigerian indigenous languages. We have courses in Yoruba, Igbo, Hausa and many more. Check out our website for more information on the available courses.",
+          "We have a variety of courses available in Nigerian indigenous languages. Our courses are designed to help you improve your language skills in a fun and engaging way. Head over to our website to find out more.",
+          "We offer a broad selection of courses in Nigerian indigenous languages to help you learn and develop your language skills. From beginner to advanced level, we have something for everyone. Check out our website to see our full range of courses.",
+          "If you're interested in learning Nigerian indigenous languages, ROOTS has a variety of courses available to meet your needs. Our courses are taught by experienced instructors and are designed to be both informative and enjoyable. Visit our website for more information."
+        ]
+      },
+      {
+        "tag": "support",
+        "patterns": [
+          "I need help",
+          "Can you help me?",
+          "I have a question",
+          "How can I get support?",
+          "Where can I find help?"
+        ],
+        "responses": [
+          "Sure, we're here to help! What do you need assistance with?",
+          "Of course, we'd be happy to assist you. What's your question?",
+          "No problem, just let us know how we can help.",
+          "We're always here to provide support when you need it. What can we help you with today?",
+          "If you need assistance, just let us know. We're happy to help with"
+                    ]
+        }
+    ]
+}
+            
