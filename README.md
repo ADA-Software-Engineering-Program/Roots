@@ -20,14 +20,14 @@ The community features will be moderated to ensure a safe and respectful environ
 The React App was created with Vite.js
 
 ### Process
-npm create vite@latest
-Create the project folder/name 
-select a framework - React
-select a variant - JavaScript
-cd project folder 
-npm install
-npm run dev
-npm start to run the app in the development mode.
-Open http://localhost:3000 to view it in your browser
+- npm create vite@latest
+- Create the project folder/name 
+- select a framework - React
+- select a variant - JavaScript
+- cd project folder 
+- npm install
+- npm run dev
+- npm start to run the app in the development mode.
+- Open http://localhost:3000 to view it in your browser
 
 
