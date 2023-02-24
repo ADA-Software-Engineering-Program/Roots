@@ -63,6 +63,42 @@
         ]
       },
       {
+        "tag": "payments",
+        "patterns": [
+          "How can I make payments?", 
+          "What are the payment options?", 
+          "How much do I pay?", 
+          "When is the payment due?"
+        ],
+        "responses": [
+          "We accept online payments through our website. Payment due dates vary depending on the service."
+        ]
+      },
+      {
+        "tag": "language_learning",
+        "patterns": [
+          "How can I learn a new language?", 
+          "What is the best way to learn a new language?", 
+          "Can you recommend language learning resources?", 
+          "How long does it take to learn a new language?"
+        ],
+        "responses": [
+          "Our platform offers personalized language learning experiences. Our language experts recommend practicing daily and immersing yourself in the language as much as possible. Learning a new language is a journey that takes time and dedication."
+        ]
+      },
+      {
+        "tag": "account_creation",
+        "patterns": [
+          "How do I create an account?", 
+          "Do I need an account to use the platform?", 
+          "Can I access the platform without an account?", 
+          "What are the benefits of creating an account?"
+        ],
+        "responses": [
+          "You can create an account by clicking on the 'Sign Up' button on our homepage. While it's not required to create an account to access the platform, having an account allows you to save your progress and track your learning journey."
+        ]
+      },
+      {
         "tag": "support",
         "patterns": [
           "I need help",
