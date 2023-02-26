@@ -75,7 +75,7 @@
         ]
       },
       {
-        "tag": "language_learning",
+        "tag": "language learning",
         "patterns": [
           "How can I learn a new language?", 
           "What is the best way to learn a new language?", 
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "tag": "account_creation",
+        "tag": "account creation",
         "patterns": [
           "How do I create an account?", 
           "Do I need an account to use the platform?", 
