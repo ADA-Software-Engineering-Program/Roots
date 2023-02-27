@@ -26,11 +26,7 @@ def stem(word):
 
 def bag_of_words(tokenized_sentence,all_words):
     tokenized_sentence = [stem(w) for w in tokenized_sentence]
-    """
-    sentence = ["hello", "how", "are", "you"]
-    words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
-    bag = [0, 1, 0, 1, 0, 0, 0]
-    """
+
    # Use the stem function to stem each word in the tokenized sentence
 
    #Initialize a bag with zeros for each word in the list of words
