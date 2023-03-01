@@ -1,12 +1,12 @@
 {
   "name": "roots",
-  "homepage":"https://ADA-Software-Engineering-Program.github.io/Roots",
+  "homepage": "https://ADA-Software-Engineering-Program.github.io/Roots",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
