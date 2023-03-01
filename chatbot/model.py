@@ -1,3 +1,4 @@
+# This is the pytorch model. It is a simple Neural Network with three linear layers.
 import torch
 import torch.nn as nn
 
