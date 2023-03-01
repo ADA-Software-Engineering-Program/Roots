@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 import './Navbar.css';
+import { Link } from "react-router-dom";
 
 
 function Navbar(){
@@ -17,19 +18,19 @@ function Navbar(){
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#about">My Learning</a>
+                            <Link className='nav-link active' to ='/'>My Learning</Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#lecturers">Lecturers</a>
+                            <Link className='nav-link' to ='/tutor'>Lecturers</Link>
                         </li>
                             
                         <li className="nav-item">
-                            <a className="nav-link" href="#testimonial">Community</a>
+                            <Link className='nav-link' to ='/community'>Community</Link>
                         </li>
                         
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Help/Support</a>
+                            <Link className='nav-link' to ='/help'>Help/Support</Link>
                         </li>
 
                         <div className='btn-group' role='group'>

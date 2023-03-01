@@ -3,7 +3,7 @@ import './UserDashboard.css';
 
 function Dashboard() {
     return(
-        <section className='container-fluid dashboard'>
+        <section className='container-fluid dashboard p-0'>
             <div className='row justify-content-between p-3'>
                 <div className="col-12">
                     <h2 className='dashboard_heading'>
