@@ -1,0 +1,24 @@
+.dashboard{
+    margin-top: 8rem;
+}
+
+.dashboard_heading{
+    font-weight: bolder;
+}
+
+.input-group{
+    width: 40vh;
+}
+
+.basics, .elementary, .intermediate, .advanced, .upper-intermediate{
+    font-size: 12px;
+}
+
+.basics img, .elementary img, .intermediate img, .advanced img, .upper-intermediate img{
+    width: 100%;
+}
+
+#buttons{
+    background-color: #4CBF8F;
+    border: none;
+}
