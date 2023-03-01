@@ -1,0 +1,48 @@
+.footer{
+    background-color: #1D1D2F;
+  }
+  
+  .footer .logo{
+    align-self: center;
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  .footer_text{
+    font-size: 10px;
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 800px){
+    .footer .logo{
+      text-align: center;
+    }
+  
+    .footer_text{
+      text-align: center;
+    }
+  
+    .footer_link{
+      text-align: justify;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .footer_link p{
+    color: #fff;
+    padding: 0.5em;
+  }
+  
+  .footer .nav-heading{
+    text-transform: uppercase;
+  }
+  
+  .footer .nav-link{
+    color: #fff;
+  }
+  
+  .footer .nav-link:hover{
+    color: #4CBF8F;
+  }

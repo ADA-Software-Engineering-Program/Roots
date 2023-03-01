@@ -1,9 +1,10 @@
 import React from "react";
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
+import './Footer.css';
 
 function Footer() {
     return (
-        <section className="footer row p-5">
+        <section className="footer row p-2">
                 <div className="col-12 col-md-3 col-lg-6 logo">
                     <img alt="LOGO" src={logo} className="img-responsive"></img>
                     <p className="footer_text m-0">&#169; 2010 - 2020 </p>

@@ -1,0 +1,20 @@
+nav{
+    background-color: #fff !important;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-link.active{
+    color: #4CBF8F !important;
+}
+
+.btn-group{
+    width: 3rem;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 990px){
+    .btn-group{
+        width: auto;
+        margin: 0;
+    }
+}
