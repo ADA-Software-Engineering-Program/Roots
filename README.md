@@ -41,6 +41,8 @@ For content display, the front-end technologies required are `HTML`, `CSS`, and 
 ## Back-end
 For content entry and management, the backend technologies required are a database management system (e.g., MongoDB), user authentication system (e.g., OAuth), hosting service (e.g., AWS, Google Cloud), and cloud storage (e.g., AWS S3, Google Cloud Storage).
 
+__You can know more about our features and technologies in our [Technical Requirements Document](https://njoku-ji.gitbook.io/technical-requirements-document-roots/).__
+
 # Get started with ROOTS
 
 The ROOTS React App is created with Vite.js. Follow these steps to set up the repository on your local machine:
