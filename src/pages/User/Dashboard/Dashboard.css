@@ -1,4 +1,4 @@
-.dashboard{
+.dashboard, .user-dash{
     margin-top: 8rem;
 }
 
@@ -21,4 +21,8 @@
 #buttons{
     background-color: #4CBF8F;
     border: none;
+}
+
+.user-info{
+    border: 1px solid rgba(51, 51, 51, 0.259);
 }

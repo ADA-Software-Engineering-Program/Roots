@@ -10,6 +10,15 @@ nav{
 .btn-group{
     width: 3rem;
     margin-top: 0.5rem;
+    border: 1px solid #4CBF8F;
+}
+
+.btn-group button{
+    border: none;
+}
+
+.btn-group button:hover{
+    background-color: #4CBF8F !important;
 }
 
 @media only screen and (min-width: 990px){
