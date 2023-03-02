@@ -36,7 +36,7 @@ function Navbar(){
                         </li>
 
                         <div className='btn-group' role='group'>
-                            <Link to='/profile'>
+                            <Link to='/settings'>
                                 <button className="btn btn-outline-dark">
                                     <i className="fa-solid fa-gear"></i>
                                 </button>

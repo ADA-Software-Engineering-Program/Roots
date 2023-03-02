@@ -17,6 +17,7 @@ function Lessons(){
 
                     <h4 className='p-2 '>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    
                     <Link to='/course'>
                         <button className='btn btn-success mt-5 align-self-center' id='buttons'>View Program</button>
                     </Link>

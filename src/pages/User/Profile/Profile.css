@@ -1,0 +1,12 @@
+.settings{
+    margin-top: 10rem;
+}
+
+.aside{
+    border: 1px solid #888;
+}
+
+.avatar img{
+    width: 150px;
+    height: 150px;
+}

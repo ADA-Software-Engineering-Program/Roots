@@ -5,7 +5,8 @@ import {Routes, Route} from "react-router-dom";
 import Dashboard from './pages/User/Dashboard';
 import Tutor from './pages/Tutor/Profile';
 import Community from './pages/Community';
-import UserProfile from './pages/User/Profile'
+import UserProfile from './pages/User/Profile/UserSettings'
+import Course from './pages/Lessons/Learning/Screen'
 // import Help from './pages/Help/Help';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/tutor" element={<Tutor />} />
           <Route path="/community" element={<Community />} />
-          <Route path='/profile' element={<UserProfile />} />
+          <Route path='/settings' element={<UserProfile />} />
+          <Route path='/course' element={<Course/>}/>
         </Routes>
       </div>
       <Footer />
