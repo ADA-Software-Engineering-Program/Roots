@@ -1,6 +1,6 @@
 import React from 'react';
-import './TutorProfile.css';
-import profile from '../../assets/profile.png'
+import './Profile.css';
+import profile from '@/assets/profile.png'
 
 function Tutor() {
     return(
@@ -13,7 +13,7 @@ function Tutor() {
 
             <div className='row profile-image'>
                 <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
-                    <img alt='profile' src={profile} className = 'img-responsive'></img>
+                    <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
                 <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
@@ -69,7 +69,7 @@ function Tutor() {
 
             <div className='row profile-image'>
                 <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
-                    <img alt='profile' src={profile} className = 'img-responsive'></img>
+                    <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
                 <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
@@ -125,7 +125,7 @@ function Tutor() {
 
             <div className='row profile-image'>
                 <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
-                    <img alt='profile' src={profile} className = 'img-responsive'></img>
+                    <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
                 <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
