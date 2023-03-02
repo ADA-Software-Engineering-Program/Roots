@@ -1,0 +1,16 @@
+.tutor{
+    margin-top: 8rem;
+}
+
+.profile-image{
+    background-color: #f3fffa;
+    margin-top: 4rem;
+}
+
+.profile-details{
+    margin-top: 5rem;
+}
+
+.about-heading, .about-tutor p, .certification, .certification h2{
+    font-weight: 300;
+}
