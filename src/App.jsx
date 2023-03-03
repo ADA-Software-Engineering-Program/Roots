@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import {Routes, Route} from "react-router-dom";
 import { Tutor, UserDashboard, UserProfile, UserNotification, UserSecurity, Payment } from './pages';
 import Community from './pages/Community/Community';
+import Course from './pages/Lessons/Learning/Screen'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<UserDashboard />} />
           <Route path="/tutor" element={<Tutor />} />
           <Route path="/community" element={<Community />} />
+          <Route path='/courses' element={<Course/>}/>
           <Route path='/profile' element={<UserProfile />} />
           <Route path='/notification' element={<UserNotification />} />
           <Route path='/security' element={<UserSecurity />} />
