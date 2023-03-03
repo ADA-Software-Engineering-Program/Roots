@@ -4,7 +4,7 @@ import '../User/Dashboard/Dashboard.css'
 
 function Dashboard(){
     return(
-        <div className='row'>
+        <div className='row justify-content-evenly'>
             <div className='row basics p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Basics</h3>
@@ -85,8 +85,7 @@ function Dashboard(){
                     <button className='btn btn-success' id='buttons'>View Program</button>
                 </div>
             </div>
-
-            
+          
             <div className='row intermediate p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Intermediate</h3>
@@ -125,7 +124,6 @@ function Dashboard(){
                     <button className='btn btn-success' id='buttons'>View Program</button>
                 </div>
             </div>
-
             
             <div className='row upper-intermediate p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
@@ -164,8 +162,7 @@ function Dashboard(){
                     <button className='btn btn-success' id='buttons'>View Program</button>
                 </div>
             </div>
-
-            
+           
             <div className='row advanced p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Advance</h3>
