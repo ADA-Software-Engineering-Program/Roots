@@ -2,11 +2,7 @@ import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import {Routes, Route} from "react-router-dom";
-import Dashboard from './pages/User/Dashboard';
-import Tutor from './pages/Tutor/Profile';
-import Community from './pages/Community';
-import UserProfile from './pages/User/Profile/UserSettings'
-import Course from './pages/Lessons/Learning/Screen'
+import { Tutor, UserDashboard, UserProfile, UserNotification, UserSecurity, Payment } from './pages';
 // import Help from './pages/Help/Help';
 
 function App() {
@@ -14,13 +10,16 @@ function App() {
   return (
     <div className='container-fluid'>
       <Navbar />
-      <div>
+      <div className='components'>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<UserDashboard />} />
           <Route path="/tutor" element={<Tutor />} />
-          <Route path="/community" element={<Community />} />
-          <Route path='/settings' element={<UserProfile />} />
-          <Route path='/course' element={<Course/>}/>
+          {/* <Route path="/community" element={<Community />} /> */}
+          <Route path='/profile' element={<UserProfile />} />
+          <Route path='/notification' element={<UserNotification />} />
+          <Route path='/security' element={<UserSecurity />} />
+          <Route path='/payment' element={<Payment />} />
+          {/* <Route path='/course' element={<Course/>}/> */}
         </Routes>
       </div>
       <Footer />

@@ -7,22 +7,24 @@ nav{
     color: #4CBF8F !important;
 }
 
-.btn-group{
+.profile-button{
     width: 3rem;
     margin-top: 0.5rem;
-    border: 1px solid #4CBF8F;
+    border: 1px solid #fff !important;
 }
 
-.btn-group button{
-    border: none;
-}
-
-.btn-group button:hover{
+.profile-button:hover{
     background-color: #4CBF8F !important;
 }
 
+.nav-link.active .profile-button{
+    background-color: #4CBF8F !important;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 @media only screen and (min-width: 990px){
-    .btn-group{
+    .profile-button{
         width: auto;
         margin: 0;
     }

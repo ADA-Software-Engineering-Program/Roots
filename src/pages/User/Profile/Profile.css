@@ -10,3 +10,17 @@
 .profile-form{
     border: 1px solid #888;
 }
+
+.form-text{
+    border: 1px solid #999;
+}
+
+.form-control:focus{
+    border-color: #4cbf8f !important;
+    box-shadow: inset 0 1px 1px rgba(76, 191, 143, 0.918), 0 0 8px rgba(76, 191, 143, 0.687);
+}
+
+.form-check-input:checked{
+    background-color: #4cbf8f;
+    border-color: #4cbf8f;
+}
