@@ -2,9 +2,11 @@
     margin-top: 10rem;
 }
 
-.avatar img{
+.avatar{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    background-color: #888;
 }
 
 .profile-form{

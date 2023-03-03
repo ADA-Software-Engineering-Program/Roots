@@ -17,7 +17,7 @@ import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
 registerPlugin(FilePondPluginImageExifOrientation, FilePondPluginImagePreview);
 
 // Our app
-class App extends Component {
+class Image extends Component {
     constructor(props) {
         super(props);
 
@@ -61,4 +61,4 @@ class App extends Component {
         );
     }
 }
-export default App;
+export default Image;

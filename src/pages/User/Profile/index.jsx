@@ -6,6 +6,7 @@ import {FcGoogle} from 'react-icons/fc'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsCalendar3} from 'react-icons/bs'
 import {BiUserCircle} from 'react-icons/bi'
+import Image from '@/components/Hooks/Filepond'
 
 
 const UserProfile = () => {
@@ -62,14 +63,9 @@ const UserProfile = () => {
                     </div>
                 </div>
 
-                <div className='col-2 col-lg-2 col-md-2 col-sm-3 pt-5 avatar text-center'>
-                        <div className='p-3'>
-                            <img className='img-fluid rounded-circle' alt='profile-image' src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29tYW4lMjBzbWlsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'></img>
-                        </div>
-                        <div className="mb-3">
-                            <input className="form-control" type="file" id="formFile"/>
-                        </div>
-                    </div>
+                <div className='col-2 col-lg-2 col-md-2 col-sm-3 pt-5 text-center'>
+                    <Image />
+                </div>
             </div>
         </section>
     )
