@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../User/Dashboard/Dashboard.css'
 
-function Lessons(){
+function Dashboard(){
     return(
         <div className='row'>
             <div className='row basics p-3 justify-content-evenly'>
@@ -208,4 +208,4 @@ function Lessons(){
     )
 }
 
-export default Lessons;
+export default Dashboard;
