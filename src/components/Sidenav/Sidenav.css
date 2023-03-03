@@ -1,0 +1,11 @@
+.sidenav-link{
+    color: #000;
+}
+
+.sidenav-link:hover{
+    color: #4cbf8f;
+}
+
+.active{
+    color: #4cbf8f;
+}
