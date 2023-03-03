@@ -2,11 +2,18 @@
     margin-top: 10rem;
 }
 
-.avatar{
+.image-display{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #888;
+    border: 1px dashed #4cbf8f;
+    background-color: #fff;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .profile-form{
@@ -25,4 +32,12 @@
 .form-check-input:checked{
     background-color: #4cbf8f;
     border-color: #4cbf8f;
+}
+
+.sidenav-btn{
+    border: none !important;
+}
+
+.sidenav-btn:hover{
+    color: #fff !important;
 }

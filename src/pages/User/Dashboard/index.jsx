@@ -15,11 +15,12 @@ function UserDashboard() {
                     </p>
                 </div>
 
-                <div className="col-4 input-group align-self-end ms-auto w-25">
+                <div className="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 input-group align-self-end ms-xl-auto ms-lg-auto ms-md-auto w-xl-25 w-lg-25 w-md-25">
                     <button className='input-group-append btn btn-outline-secondary'><i className='fa-solid fa-search '></i></button>
                     <input type="text" className="form-control" placeholder="Search Courses" aria-label="Search Courses" aria-describedby="buttons"/>
                 </div>
             </div>
+            
             <Lessons/>
         </section>
     )
