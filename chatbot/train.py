@@ -1,4 +1,5 @@
 #This is the section for implementing the functions defined in nltk_utils.py
+# This is the where the pytorch training loop to train the model is located
 
 #Import necessary libraries
 import json
