@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer';
 import {Routes, Route} from "react-router-dom";
 import Dashboard from './pages/User/Dashboard';
 import Tutor from './pages/Tutor/Profile';
-import Community from './pages/Community';
+import Community from './pages/Community/Community';
 import UserProfile from './pages/User/Profile/UserSettings'
 import Course from './pages/Lessons/Learning/Screen'
 // import Help from './pages/Help/Help';
