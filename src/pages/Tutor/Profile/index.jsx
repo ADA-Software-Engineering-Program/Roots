@@ -7,16 +7,16 @@ function Tutor() {
         <section className='tutor container-fluid p-3'>
             <div className='row'>
                 <div className='col-12 tutor_heading'>
-                    <h2>Meet your Tutors!</h2>
+                    <h1 className='fw-bold'>Meet your Tutors!</h1>
                 </div>
             </div>
 
             <div className='row profile-image'>
-                <div className='col-12 col-xl-8 col-lg-7 col-md-7'>
-                    <img alt='profile' src={profile} className = 'img-fluid w-100'></img>
+                <div className='col-12 col-xl-9 col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                    <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
-                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-12 profile-details'>
+                <div className='col-12 col-xl-3 col-lg-5 col-md-5 col-sm-12 col-xs-12 mb-3'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -56,23 +56,23 @@ function Tutor() {
                 </div>
             </div>
             <div className='row'>
-                <div className='about-tutor col-7 p-2'>
+                <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
 
-                <div className='col-7 certification'>
+                <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
             </div>
 
             <div className='row profile-image'>
-                <div className='col-12 col-xl-8 col-lg-7 col-md-7 col-sm-4 col-xs-12'>
+                <div className='col-12 col-xl-9 col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                     <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
-                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-8 col-xs-12 profile-details'>
+                <div className='col-12 col-xl-3 col-lg-5 col-md-5 col-sm-12 col-xs-12 profile-details'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -112,23 +112,23 @@ function Tutor() {
                 </div>
             </div>
             <div className='row'>
-                <div className='about-tutor col-7 p-2'>
+                <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
-
-                <div className='col-7 certification'>
+                
+                <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
             </div>
 
             <div className='row profile-image'>
-                <div className='col-12 col-xl-8 col-lg-7 col-md-7 col-sm-4 col-xs-12'>
+                <div className='col-12 col-xl-9 col-lg-7 col-md-6 col-sm-12 col-xs-12'>
                     <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
-                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-8 col-xs-12 profile-details'>
+                <div className='col-12 col-xl-3 col-lg-5 col-md-6 col-sm-12 col-xs-12 mb-3'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -167,14 +167,13 @@ function Tutor() {
                     </div>
                 </div>
             </div>
-
             <div className='row'>
-                <div className='about-tutor col-7 p-2'>
+                <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
 
-                <div className='col-7 certification'>
+                <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
                 </div>
