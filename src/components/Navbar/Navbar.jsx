@@ -39,7 +39,7 @@ function Navbar(){
                             <Link  className={`nav-link ${pathname === '/support' && 'active'}`} to ='/help'>Support</Link>
                         </li>
 
-                        <Link className={`nav-link p-0 ${pathname === '/settings' && 'active'}`} to='/settings'>
+                        <Link className={`nav-link p-0 ${pathname === '/profile' && 'active'}`} to='/profile'>
                             <button className='btn btn-outline-success profile-button'>
                                 <BsGear/>
                             </button>

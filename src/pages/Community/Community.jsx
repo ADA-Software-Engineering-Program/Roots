@@ -42,10 +42,10 @@ const Community = () => {
           <div className="col-lg-6 communitycard">
             <div className="innercard">
                 <img src={commimage0}  className="communitycardimg img-fluid"/>
-                <di >
+                <div>
                 <p className="cardtext mt-4">Ask the community</p>
                 <p>67 posts</p>
-                </di>
+                </div>
             </div>
           </div>
           
