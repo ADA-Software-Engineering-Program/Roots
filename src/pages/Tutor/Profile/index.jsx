@@ -12,11 +12,11 @@ function Tutor() {
             </div>
 
             <div className='row profile-image'>
-                <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
-                    <img alt='profile' src={profile} className = 'img-fluid'></img>
+                <div className='col-12 col-xl-8 col-lg-7 col-md-7'>
+                    <img alt='profile' src={profile} className = 'img-fluid w-100'></img>
                 </div>
                 
-                <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
+                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-12 profile-details'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -43,12 +43,12 @@ function Tutor() {
                                 <p className='col-6 fst-italic'>Social</p>
                                 <p className='col-6 fst-italic text-end'>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-facebook-f"></i> 
+                                        <i className="fa-brands fa-facebook-f"></i> 
                                     </span>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-twitter"></i>
+                                        <i className="fa-brands fa-twitter"></i>
                                     </span>
-                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i className="fa-brands fa-linkedin"></i>
                                 </p>
                             </div>
                         </div>
@@ -68,11 +68,11 @@ function Tutor() {
             </div>
 
             <div className='row profile-image'>
-                <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
+                <div className='col-12 col-xl-8 col-lg-7 col-md-7 col-sm-4 col-xs-12'>
                     <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
-                <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
+                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-8 col-xs-12 profile-details'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -99,12 +99,12 @@ function Tutor() {
                                 <p className='col-6 fst-italic'>Social</p>
                                 <p className='col-6 fst-italic text-end'>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-facebook-f"></i> 
+                                        <i className="fa-brands fa-facebook-f"></i> 
                                     </span>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-twitter"></i>
+                                        <i className="fa-brands fa-twitter"></i>
                                     </span>
-                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i className="fa-brands fa-linkedin"></i>
                                 </p>
                             </div>
                         </div>
@@ -124,11 +124,11 @@ function Tutor() {
             </div>
 
             <div className='row profile-image'>
-                <div className='col-9 col-xl-9 col-lg-7 col-md-7 profile'>
+                <div className='col-12 col-xl-8 col-lg-7 col-md-7 col-sm-4 col-xs-12'>
                     <img alt='profile' src={profile} className = 'img-fluid'></img>
                 </div>
                 
-                <div className='col-3 col-xl-3 col-lg-5 col-md-5 col-sm-12 profile-details'>
+                <div className='col-12 col-xl-4 col-lg-5 col-md-5 col-sm-8 col-xs-12 profile-details'>
                     <div className='card'>
                         <div className='card-body'>
                             <div className='row'>
@@ -155,12 +155,12 @@ function Tutor() {
                                 <p className='col-6 fst-italic'>Social</p>
                                 <p className='col-6 fst-italic text-end'>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-facebook-f"></i> 
+                                        <i className="fa-brands fa-facebook-f"></i> 
                                     </span>
                                     <span className='me-2'>
-                                        <i class="fa-brands fa-twitter"></i>
+                                        <i className="fa-brands fa-twitter"></i>
                                     </span>
-                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i className="fa-brands fa-linkedin"></i>
                                 </p>
                             </div>
                         </div>
