@@ -1,0 +1,4 @@
+[submodule "Roots-landing-page"]
+	path = Roots-landing-page
+	url = https://github.com/ADA-Software-Engineering-Program/Roots-landing-page
+	branch = main
