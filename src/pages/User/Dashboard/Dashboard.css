@@ -10,6 +10,11 @@
     width: 40vh;
 }
 
+.input-group-append:hover{ 
+    background-color: #4CBF8F;
+    color: #fff;
+}
+
 .basics, .elementary, .intermediate, .advanced, .upper-intermediate{
     font-size: 12px;
 }
