@@ -8,12 +8,11 @@ const Course = () => {
     return(
         <div className='mt-5 p-5'>
             <div className="vect">
-            <p>Home</p>
-            <p>Basic level</p>
+            <p>Home<i class="fa-solid fa-chevron-right"></i></p>
+            <p>Basic level<i class="fa-solid fa-chevron-right"></i></p>
             <p>Alphabet</p>
             </div>
-    
-            <img src={video} alt="video" className='video'></img>
+            <a href="https://youtu.be/pVGmhcYM4LU"><img src={video} alt="video" className='video'></img></a>
             <h1>Understanding Alphabetic in Igbo language </h1>
             <div className='profile'>
                 <img src={profile} alt="profile"></img>
@@ -27,18 +26,23 @@ const Course = () => {
                 
             </div>
             <div>
-                <p><i class="fa-regular fa-volume"></i>Igbo language (Original)</p>
-                <p>Subtitle (English language)</p>
-                <p>93% (1k)</p>
-                <p>75k students</p>
+                <div>
+                <p><i class="fa-solid fa-volume-high"></i>Igbo language (Original)</p>
+                <p><i class="fa-regular fa-file-lines"></i>Subtitle (English language)</p>
+                </div>
+                
+               <div> 
+                <p><i class="fa-regular fa-thumbs-up"></i>93% (1k)</p>
+                <p><i class="fa-solid fa-person"></i>75k students</p>
+                </div>
             </div>
             <hr></hr>
             <div>
                 <h3>Requirements</h3>
                 <div className='requirements'>
-                    <p>1hr of video</p>
-                    <p>30 min of reading</p>
-                    <p>1 graded assignment</p>
+                    <p><i class="fa-solid fa-play"></i>1hr of video</p>
+                    <p><i class="fa-solid fa-book-open"></i>30 min of reading</p>
+                    <p><i class="fa-regular fa-chess-rook"></i>1 graded assignment</p>
                 </div>
             </div>
             <hr/>

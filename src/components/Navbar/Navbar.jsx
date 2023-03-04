@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 import './Navbar.css';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import {BsGear} from 'react-icons/bs'
 
 
 function Navbar(){
+    
+    const {pathname} = useLocation()
+    
     return( 
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div className="container-fluid"> 
@@ -20,33 +24,26 @@ function Navbar(){
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li className="nav-item">
-                            <Link className='nav-link active' to ='/'>My Learning</Link>
+                            <Link className={`nav-link ${pathname === '/' && 'active'}`} to ='/'>My Learning</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className='nav-link' to ='/tutor'>Lecturers</Link>
+                            <Link  className={`nav-link ${pathname === '/tutor' && 'active'}`} to ='/tutor'>Lecturers</Link>
                         </li>
                             
                         <li className="nav-item">
-                            <Link className='nav-link' to ='/community'>Community</Link>
+                            <Link  className={`nav-link ${pathname === '/community' && 'active'}`} to ='/community'>Community</Link>
                         </li>
                         
                         <li className="nav-item">
-                            <Link className='nav-link' to ='/help'>Help/Support</Link>
+                            <Link  className={`nav-link ${pathname === '/support' && 'active'}`} to ='/support'>Support</Link>
                         </li>
 
-                        <div className='btn-group' role='group'>
-                            <Link to='/settings'>
-                                <button className="btn btn-outline-dark">
-                                    <i className="fa-solid fa-gear"></i>
-                                </button>
-                            </Link>
-
-                            <button className='btn btn-outline-dark'>
-                                <i className="fa-regular fa-user"></i>
+                        <Link className={`nav-link p-0 ${pathname === '/settings' && 'active'}`} to='/settings'>
+                            <button className='btn btn-outline-success profile-button'>
+                                <BsGear/>
                             </button>
-                        </div>
-                        
+                        </Link>                     
                     </ul>
                 </div>
             </div>  

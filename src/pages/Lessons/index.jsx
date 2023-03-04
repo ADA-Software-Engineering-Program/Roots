@@ -2,9 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../User/Dashboard/Dashboard.css'
 
-function Lessons(){
+function Dashboard(){
     return(
-        <div className='row'>
+        <div className='row justify-content-evenly'>
             <div className='row basics p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Basics</h3>
@@ -28,7 +28,9 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -36,7 +38,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -44,7 +49,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
             
@@ -58,7 +66,9 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -66,7 +76,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -74,7 +87,9 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -82,11 +97,13 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
-
-            
+          
             <div className='row intermediate p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Intermediate</h3>
@@ -98,7 +115,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -106,7 +126,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -114,7 +137,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                     
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -122,10 +148,12 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
-
             
             <div className='row upper-intermediate p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
@@ -137,7 +165,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -145,7 +176,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -153,7 +187,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -161,11 +198,13 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
-
-            
+           
             <div className='row advanced p-3 justify-content-evenly'>
                 <div className='col-12 d-flex justify-content-between my-2'>
                     <h3>Advance</h3>
@@ -177,7 +216,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -185,7 +227,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -193,7 +238,10 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
                 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -201,11 +249,14 @@ function Lessons(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>
     )
 }
 
-export default Lessons;
+export default Dashboard;

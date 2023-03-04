@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #505050;
+}
+
+.mainsection{
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+.mainpage {
+    margin-top: 80px;
+    padding: 0 8%;
+}
+
+.mainheading{
+    text-align: left;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    align-items: center;
+    color: #0F261D;
+    margin: 0;
+}
+
+.mainsubsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainsubheading {
+    margin: 0 25px 0 0;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    align-self: center;
+    color: #1D1D2F;
+    line-height: 1.8;
+}
+
+.mainsubheadingicon{
+    margin-right: 10px;
+}
+
+.mainbutton {
+    text-align: right;
+    margin-top: 50px;
+}
+
+/* community */
+
+.joincommunity{
+    padding: 5%;
+}
+
+.innercard{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.innercard {
+    padding: 40px 80px;
+}
+
+.cardtext {
+    font-weight: bolder;
+}
+
+/* Discussions */
+
+ .discussions {
+    margin: 5%;
+    padding: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+ }
+
+ .discussionheading {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+ }
+
+.question{
+    font-weight: bold;
+}
+
+hr {
+    color: black;
+}
+
+/* More from the community */
+
+.morecommunity{
+    margin: 8%;
+}
+
+.morecommunityheading  {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 20px;
+ }
+
+.innermorecommunity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (width: 1024px) {
+    .mainsubsection {
+        display: block;
+        margin: 25px 0;
+    }
+  
+}
+
+
+@media screen and (max-width: 700px) {
+     
+    .mainpage{
+        width: 100%;
+    }
+
+    .mainheading{
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .mainsubsection {
+        display: block;
+        margin: 25px 0;
+    }
+    
+    .mainimg{
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .mainbutton {
+        text-align: center;
+    }
+
+    .innercard {
+        padding: 10px;
+    }
+
+    .morecommunityheading {
+        font-size: 30px;
+    }
+
+    .innermorecommunity{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 950px) {
+
+    .mainheading{
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .mainsubsection {
+        display: block;
+        margin: 25px 0;
+    }
+
+    .innercard {
+        text-align: center;
+    }
+
+    .morecommunityheading {
+        text-align: center;
+    }
+
+    .innermorecommunity{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
