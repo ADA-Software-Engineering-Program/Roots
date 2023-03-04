@@ -36,7 +36,7 @@ function Tutor() {
 
                             <div className='row'>
                                 <p className='col-6 fst-italic'>Language</p>
-                                <p className='col-6 fst-italic text-end'>English, French</p>
+                                <p className='col-6 fst-italic text-end'>English, Igbo</p>
                             </div>
 
                             <div className='row'>
@@ -58,12 +58,17 @@ function Tutor() {
             <div className='row'>
                 <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>
+                        Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
+                    </p>
                 </div>
 
                 <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p>
+                        Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
+
+                    </p>
                 </div>
             </div>
 
@@ -92,7 +97,7 @@ function Tutor() {
 
                             <div className='row'>
                                 <p className='col-6 fst-italic'>Language</p>
-                                <p className='col-6 fst-italic text-end'>English, French</p>
+                                <p className='col-6 fst-italic text-end'>English, Igbo</p>
                             </div>
 
                             <div className='row'>
@@ -114,12 +119,17 @@ function Tutor() {
             <div className='row'>
                 <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>
+                        Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
+                    </p>
                 </div>
-                
-                <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start certification'>
+
+                <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p>
+                        Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
+
+                    </p>
                 </div>
             </div>
 
@@ -148,7 +158,7 @@ function Tutor() {
 
                             <div className='row'>
                                 <p className='col-6 fst-italic'>Language</p>
-                                <p className='col-6 fst-italic text-end'>English, French</p>
+                                <p className='col-6 fst-italic text-end'>English, Igbo</p>
                             </div>
 
                             <div className='row'>
@@ -170,12 +180,17 @@ function Tutor() {
             <div className='row'>
                 <div className='about-tutor col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-2 text-sm-center text-md-center text-lg-start text-xl-start'>
                     <h2 className='about-heading fst-italic'>About Juliana</h2>
-                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p className='p-2'>
+                        Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
+                    </p>
                 </div>
 
                 <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-sm-center text-md-center text-lg-start text-xl-start certification'>
                     <h2 className='fst-italic'>Certifications</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas sint, sit maxime ab placeat corporis quo architecto. Minima reprehenderit sit libero commodi porro magni dolores provident qui omnis impedit?</p>
+                    <p>
+                        Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
+
+                    </p>
                 </div>
             </div>
         </section>

@@ -81,7 +81,7 @@ const UserProfile = () => {
                 <div className='col-2 col-lg-2 col-md-2 col-sm-3 pt-5 text-center d-flex flex-column'>
                     <input type='file' accept='image/*' multiple={false} onChange={handleImageUpload} ref={imageUploader} className='d-none'></input>
                     <div className='image-display align-self-center'>
-                        <img alt='profile-image' className='img-fluid text-center avatar' ref={uploadedImage}></img>
+                        <img alt='' className='img-fluid text-center avatar' ref={uploadedImage}></img>
                     </div>
                     <button className='btn btn-outline-success mt-2' id='button' onClick={() => imageUploader.current.click()}>Upload Image</button>
                 </div>
