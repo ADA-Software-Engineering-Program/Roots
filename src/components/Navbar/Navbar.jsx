@@ -36,7 +36,7 @@ function Navbar(){
                         </li>
                         
                         <li className="nav-item">
-                            <Link  className={`nav-link ${pathname === '/support' && 'active'}`} to ='/help'>Support</Link>
+                            <Link  className={`nav-link ${pathname === '/support' && 'active'}`} to ='/support'>Support</Link>
                         </li>
 
                         <Link className={`nav-link p-0 ${pathname === '/settings' && 'active'}`} to='/settings'>
