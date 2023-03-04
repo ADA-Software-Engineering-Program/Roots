@@ -8,8 +8,12 @@ const Course = () => {
     return(
         <div className='mt-5 p-5'>
             <div className="vect">
-            <p>Home<i class="fa-solid fa-chevron-right"></i></p>
-            <p>Basic level<i class="fa-solid fa-chevron-right"></i></p>
+            <Link to ='/'>
+                <p>Home <i class="fa-solid fa-chevron-right"></i></p>
+            </Link>
+            <Link to='/'>
+                <p>Basic level<i class="fa-solid fa-chevron-right"></i></p>
+            </Link>
             <p>Alphabet</p>
             </div>
             <a href="https://youtu.be/pVGmhcYM4LU"><img src={video} alt="video" className='video'></img></a>
@@ -59,6 +63,7 @@ const Course = () => {
             
             
             <button className='btn btn-success' id='buttons' onClick={<Link></Link>}>Get Started</button>
+            {/* This button should take the user to learning dashboard/course page. */}
         </div>
     )
 }
