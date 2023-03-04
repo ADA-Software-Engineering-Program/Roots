@@ -28,7 +28,9 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -36,7 +38,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -44,7 +49,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
             
@@ -58,7 +66,9 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -66,7 +76,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -74,7 +87,9 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -82,7 +97,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
           
@@ -97,7 +115,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -105,7 +126,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -113,7 +137,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                     
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -121,7 +148,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
             
@@ -135,7 +165,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -143,7 +176,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -151,7 +187,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -159,7 +198,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
            
@@ -174,7 +216,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -182,7 +227,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -190,7 +238,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success mt-5' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
                 
                 <div className='col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 m-3 shadow-sm p-2 text-center'>
@@ -198,7 +249,10 @@ function Dashboard(){
 
                     <h4 className='p-2'>Charles Lukwan</h4>
                     <p>Learn the basics of Igbo language from Alphabetics.</p>
+                    <Link to="/course">
                     <button className='btn btn-success' id='buttons'>View Program</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>
