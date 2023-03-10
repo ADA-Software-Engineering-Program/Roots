@@ -8,13 +8,13 @@ const Course = () => {
     return(
         <div className='mt-5 p-5'>
             <div className="vect">
-            <Link to ='/'>
-                <p>Home <i class="fa-solid fa-chevron-right"></i></p>
-            </Link>
-            <Link to='/'>
+                <Link to ='/dashboard'>
+                    <p>Home <i class="fa-solid fa-chevron-right"></i></p>
+                </Link>
+            
                 <p>Basic level<i class="fa-solid fa-chevron-right"></i></p>
-            </Link>
-            <p>Alphabet</p>
+
+                <p>Alphabet</p>
             </div>
             <a href="https://youtu.be/pVGmhcYM4LU"><img src={video} alt="video" className='video'></img></a>
             <h1>Understanding Alphabetic in Igbo language </h1>
@@ -61,8 +61,9 @@ const Course = () => {
                 <li><p>Learners of Igbo Language at Beginner and Intermediate level, with or without prior exposure to the Igbo Language</p></li>
             </ul>
             
-            
-            <button className='btn btn-success' id='buttons' onClick={<Link></Link>}>Get Started</button>
+            <Link to ='/success'>
+                <button className='btn btn-success' id='buttons'>Get Started</button>
+            </Link>
             {/* This button should take the user to learning dashboard/course page. */}
         </div>
     )
