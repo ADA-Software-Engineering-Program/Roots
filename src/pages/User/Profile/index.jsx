@@ -26,9 +26,8 @@ const UserProfile = () => {
         reader.readAsDataURL(file);
         }
     };
-
     return(
-        <section className='settings container-fluid'>
+        <section className='settings container-fluid p-5'>
             <div className='row justify-content-between'>
                 <SideNav active={active} setActive={setActive}/>
 
@@ -60,7 +59,7 @@ const UserProfile = () => {
                             </div>
                         </div>
 
-                        <button type="submit" className="btn btn-outline-success ps-4 pe-4 mt-4" id='button'>Save</button>
+                        <button className="btn btn-outline-success ps-4 pe-4 mt-4" id='save'>Save</button>
                     </form>
 
                     <hr/>
