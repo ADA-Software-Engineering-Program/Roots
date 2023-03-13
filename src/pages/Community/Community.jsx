@@ -5,7 +5,6 @@ import commimage0 from "../../assets/communityimg.png";
 import commimage1 from "../../assets/communityimg1.png";
 import commimage2 from "../../assets/communityimg2.png";
 import commimage3 from "../../assets/communityimg3.png";
-import commimage4 from "../../assets/communityimg4.png";
 
 const Community = () => {
     return (

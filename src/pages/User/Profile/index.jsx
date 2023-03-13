@@ -26,9 +26,8 @@ const UserProfile = () => {
         reader.readAsDataURL(file);
         }
     };
-
     return(
-        <section className='settings container-fluid'>
+        <section className='settings container-fluid p-5'>
             <div className='row justify-content-between'>
                 <SideNav active={active} setActive={setActive}/>
 
@@ -40,7 +39,7 @@ const UserProfile = () => {
                             <label htmlFor="fullname" className="form-label">Full Name</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><BiUserCircle/></button>
-                                <input type="text" className="form-control" id="fullname" aria-describedby="fullname" placeholder='John Doe'/>
+                                <input type="text" className="form-control m-0" id="fullname" aria-describedby="fullname" placeholder='John Doe'/>
                             </div>
                         </div>
 
@@ -48,7 +47,7 @@ const UserProfile = () => {
                             <label htmlFor="email" className="form-label">Email</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><HiOutlineMail/></button>
-                                <input type="email" className="form-control" id="email" placeholder='johndoe@gmail.com'/>
+                                <input type="email" className="form-control m-0" id="email" placeholder='johndoe@gmail.com'/>
                             </div>
                         </div>
 
@@ -56,11 +55,11 @@ const UserProfile = () => {
                             <label className="form-label" htmlFor="date">Date of Birth</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><BsCalendar3/></button>
-                                <input type="text" className="form-control" id="date" placeholder='Day/Month/Year'/>
+                                <input type="text" className="form-control m-0" id="date" placeholder='Day/Month/Year'/>
                             </div>
                         </div>
 
-                        <button type="submit" className="btn btn-outline-success ps-4 pe-4 mt-4" id='button'>Save</button>
+                        <button className="btn btn-outline-success ps-4 pe-4 mt-4" id='save'>Save</button>
                     </form>
 
                     <hr/>

@@ -20,7 +20,7 @@ const UserSecurity = () => {
                             <label htmlFor="currentpassword" className="form-label ">Current Password</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><HiOutlineLockClosed/></button>
-                                <input type="text" className="form-control" id="currentpassword" aria-describedby="current password" placeholder='Minimum 8 Characters'/>
+                                <input type="text" className="form-control m-0" id="currentpassword" aria-describedby="current password" placeholder='Minimum 8 Characters'/>
                             </div>
                         </div>
 
@@ -28,7 +28,7 @@ const UserSecurity = () => {
                             <label htmlFor="newpassword" className="form-label ">New Password</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><HiOutlineLockClosed/></button>
-                                <input type="text" className="form-control" id="newpassword" aria-describedby="newpassword" placeholder='Minimum 8 Characters'/>
+                                <input type="text" className="form-control m-0" id="newpassword" aria-describedby="newpassword" placeholder='Minimum 8 Characters'/>
                             </div>
                         </div>
                         <p className='fs-6 text'>
@@ -40,7 +40,7 @@ const UserSecurity = () => {
                             <label htmlFor="email" className="form-label ">Current email</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><HiOutlineMail/></button>
-                                <input type="email" className="form-control" id="email" placeholder='johndoe@gmail.com'/>
+                                <input type="email" className="form-control m-0" id="email" placeholder='johndoe@gmail.com'/>
                             </div>
                         </div>
 
@@ -48,7 +48,7 @@ const UserSecurity = () => {
                             <label htmlFor="email" className="form-label ">New email</label>
                             <div className='input-group w-100'>
                                 <button className='btn btn-outline-success'><HiOutlineMail/></button>
-                                <input type="email" className="form-control" id="email" placeholder='johndoe@gmail.com'/>
+                                <input type="email" className="form-control m-0" id="email" placeholder='johndoe@gmail.com'/>
                             </div>
                         </div>
 

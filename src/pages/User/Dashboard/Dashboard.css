@@ -1,9 +1,9 @@
-.dashboard, .user-dash{
-    margin-top: 8rem;
+.user-dash{
+    margin-top: 3rem;
 }
 
-.dashboard_heading{
-    font-weight: bolder;
+.dashboard-heading{
+    margin-top: 4rem;
 }
 
 .input-group{
