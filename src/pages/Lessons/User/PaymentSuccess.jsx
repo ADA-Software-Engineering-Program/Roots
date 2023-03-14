@@ -28,7 +28,7 @@ const Success = () =>{
                     <h3 className='fw-bolder'>Payment Successful</h3>
                     <p className='text-muted'>You have successfully subscribe to Roots e-learning Platform.</p>
                     <Link to='/dashboard'>
-                        <button className='btn btn-outline-success' id='buttons'> Continue </button>
+                        <button className='btn btn-outline-success' id='button'> Continue </button>
                     </Link>
                 </div>
             </div>
