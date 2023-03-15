@@ -3,7 +3,8 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import {Routes, Route} from "react-router-dom";
 import { Tutor, UserDashboard, UserProfile, UserNotification, UserSecurity, Payment } from './pages';
-import Community from './pages/Community/Community';
+import Community from './pages/Community/Communitypage/Community';
+import Conversation from './pages/Community/Conversation/Conversation';
 import Support from './pages/Support/Support';
 import Content from './pages/Lessons/Learning/Course.jsx';
 import Course from './pages/Lessons/Learning/Screen'
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<UserDashboard />} />
           <Route path="/tutor" element={<Tutor />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/conversation" element={<Conversation />} />
           <Route path='/course' element={<Course/>}/>
           <Route path='/content' element={<Content/>}/>
           <Route path="/support" element={<Support />} />

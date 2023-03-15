@@ -10,7 +10,7 @@ const Support = () => {
         <div className="supportform">
            <p  className="text-center supportformtext mb-5">Get in touch with us </p>
            
-           <form>
+           <form action="https://formspree.io/f/xyyajbqe" method="POST">
 
             <div className="box">
 
@@ -26,6 +26,7 @@ const Support = () => {
                                     type="text"
                                     id="firstnameInput"
                                     placeholder="John Doe" 
+                                    name="Full name"
                                     required 
                                 />
                             </div>
@@ -43,6 +44,7 @@ const Support = () => {
                                     type="email"
                                     id="emailInput"
                                     placeholder="johndoe@gmail.com" 
+                                    name="Email"
                                     required 
                                 />
                             </div>
@@ -52,14 +54,14 @@ const Support = () => {
                 </div>
 
                 <div className="form-group">
-                    <textarea className="form-control mt-3" rows="6">What is your concern?...</textarea>
+                    <textarea className="form-control mt-3" rows="6" placeholder="Send us a message" name="Message" required></textarea>
                </div>
             </div>   
                   
                 <br />
              
                 <div className="text-center">
-                    <input className="submit text-center" value="Send message"/>
+                    <button className="submit text-center" type="submit">Send message</button>
                 </div>
             </form>
         </div>
