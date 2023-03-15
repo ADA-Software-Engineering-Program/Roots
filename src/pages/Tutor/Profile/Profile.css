@@ -9,3 +9,7 @@
 .about-heading, .about-tutor p, .certification, .certification h2{
     font-weight: 300;
 }
+
+.mail-link{
+    color: #1A8357 !important;
+}
