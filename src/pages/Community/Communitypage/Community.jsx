@@ -1,10 +1,11 @@
 import React from "react"; 
+import {Link} from 'react-router-dom'
 import "./Community.css"; 
-import commimage from "../../assets/rootcommunityimg.png";
-import commimage0 from "../../assets/communityimg.png";
-import commimage1 from "../../assets/communityimg1.png";
-import commimage2 from "../../assets/communityimg2.png";
-import commimage3 from "../../assets/communityimg3.png";
+import commimage from "@/assets/rootcommunityimg.png";
+import commimage0 from "@/assets/communityimg.png";
+import commimage1 from "@/assets/communityimg1.png";
+import commimage2 from "@/assets/communityimg2.png";
+import commimage3 from "@/assets/communityimg3.png";
 
 const Community = () => {
     return (
@@ -22,7 +23,9 @@ const Community = () => {
                 </div>
                
                 <div className="mainbutton">   
+                <Link to='/conversation'>
                   <button className="btn btn-success d-block mt-3" id="buttons">Join the conversation</button>
+               </Link>
                 </div>
 
             </div>
