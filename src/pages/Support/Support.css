@@ -62,7 +62,7 @@ input[type=email]
 
 .submit {
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #ffff;
     background: #4CBF8F;
     border: 0;

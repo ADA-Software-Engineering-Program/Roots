@@ -1,0 +1,104 @@
+.conversation {
+    margin-top: 10%;
+}
+
+.inputcontainer {
+    width: 100%;
+}
+  
+.searchicon {
+   position: absolute;
+    padding: 10px;
+    margin-top: 14px;
+    min-width: 40px;
+}
+
+input[type=text]
+ {
+   width: 100%;
+   max-width: 70%;
+   padding: 10px 45px;
+   margin: 8px 0;
+   box-sizing: border-box;
+}
+
+  input::placeholder{
+    padding-left: 10px;
+  }
+
+  .conversationdetails{
+    margin: 5%;
+  }
+
+  .userinfo{
+    display: flex;
+  }
+
+  .userimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .nameanddate{
+    margin-left: 12px;
+    margin-top: 8px;
+  }
+
+  .username{
+     font-size: 16px;
+     font-weight: bold;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .question{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .ask{
+    font-size: 14px;
+  }
+
+  .userfeedbacks{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+
+  .answer{
+    margin-left: 30px;
+  }
+
+  .usericon {
+    margin-right: 10px;
+  }
+
+  .period {
+    margin: 0 15px
+  }
+
+  @media screen and (max-width: 1200px) {
+    .conversation {
+        margin-top: 15%;
+    }
+
+  }
+
+  @media screen and (max-width: 700px) {
+    .conversation {
+        margin-top: 25%;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .conversation {
+        margin-top: 35%;
+    }
+
+  }
