@@ -1,9 +1,10 @@
 import React from 'react';
-import './Profile.css';
+import '../../pages/Tutor/Profile/Profile.css';
 import profile from '@/assets/profile.png'
 import { Link } from 'react-router-dom'
+import {FaUser} from 'react-icons/fa'
 
-function Tutor(active, setActive) { 
+function Review(active, setActive) { 
     return(
         <section className='tutor container-fluid p-3'>
             <div className='row'>
@@ -18,8 +19,7 @@ function Tutor(active, setActive) {
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-                    
-                <Link to='/tutor'>
+                    <Link to='/tutor'>
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
                     <Link to='/courses'>
@@ -33,19 +33,16 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+                    <div>
+                        <h4 className='fw-bold fst-italic my-5 text-decoration-underline'>Top Comments</h4>
+                    
+                        <p><FaUser/> She is very kind and patient with her teaching methods.</p>
+                        <p><FaUser/> Her videos encouraged me to complete my learning when I felf discouraged.</p>
+                        <p><FaUser/> Nice voice</p>
+                        <p><FaUser/> Good correction and detailed explanation.</p>
+                        <p><FaUser/> After the first course, I was so impressed that I subscribed to all her other courses. Of course I wasn’t disappointed.</p>
+                    </div>
                 </div>
                 
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
@@ -108,19 +105,16 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+                    <div>
+                        <h4 className='fw-bold fst-italic my-5 text-decoration-underline'>Top Comments</h4>
+                    
+                        <p><FaUser/> She is very kind and patient with her teaching methods.</p>
+                        <p><FaUser/> Her videos encouraged me to complete my learning when I felf discouraged.</p>
+                        <p><FaUser/> Nice voice</p>
+                        <p><FaUser/> Good correction and detailed explanation.</p>
+                        <p><FaUser/> After the first course, I was so impressed that I subscribed to all her other courses. Of course I wasn’t disappointed.</p>
+                    </div>
                 </div>
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
                     <div className='card'>
@@ -167,12 +161,9 @@ function Tutor(active, setActive) {
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-
                 <Link to='/tutor'>
-                    
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
-
                     <Link to='/courses'>
                         <button className={`btn btn-outline-success me-4 ${active === 'courses' && 'active'}`} onClick={() => setActive('courses')} id='button'>Courses</button>
                     </Link>
@@ -185,6 +176,15 @@ function Tutor(active, setActive) {
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
 
+                        <div>
+                            <h4 className='fw-bold fst-italic my-5 text-decoration-underline'>Top Comments</h4>
+                            
+                            <p><FaUser/> She is very kind and patient with her teaching methods.</p>
+                            <p><FaUser/> Her videos encouraged me to complete my learning when I felf discouraged.</p>
+                            <p><FaUser/> Nice voice</p>
+                            <p><FaUser/> Good correction and detailed explanation.</p>
+                            <p><FaUser/> After the first course, I was so impressed that I subscribed to all her other courses. Of course I wasn’t disappointed.</p>
+                        </div>
                     </div>
 
                     <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
@@ -231,4 +231,4 @@ function Tutor(active, setActive) {
     )
 }
 
-export default Tutor;
+export default Review;

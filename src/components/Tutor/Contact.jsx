@@ -1,9 +1,9 @@
 import React from 'react';
-import './Profile.css';
+import '../../pages/Tutor/Profile/Profile.css';
 import profile from '@/assets/profile.png'
 import { Link } from 'react-router-dom'
 
-function Tutor(active, setActive) { 
+function Contact(active, setActive) { 
     return(
         <section className='tutor container-fluid p-3'>
             <div className='row'>
@@ -18,7 +18,6 @@ function Tutor(active, setActive) {
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-                    
                 <Link to='/tutor'>
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
@@ -32,20 +31,13 @@ function Tutor(active, setActive) {
 
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
-                    </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
+                    </Link>  
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+                    <div>
+                        <h4 className='fst-italic my-4'>Contact</h4>
+
+                        <p>You can contact Juliana at <a className='mail-link' href='mailto: juliana@roots.ng'>juliana@roots.ng</a> or follow her on her socials.</p>
+                    </div>
                 </div>
                 
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
@@ -108,19 +100,13 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+
+                    <div>
+                    <h4 className='fst-italic my-4'>Contact</h4>
+
+                        <p>You can contact Juliana at <a className='mail-link' href='mailto: juliana@roots.ng'>juliana@roots.ng</a> or follow her on her socials.</p>
+                    </div>
                 </div>
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
                     <div className='card'>
@@ -159,20 +145,18 @@ function Tutor(active, setActive) {
                             </div>
                         </div>
                     </div>
+               </div>
             </div>
 
             <div className='row profile-image'>
                 <div className='col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center'>
-                        <img alt='profile' src={profile} className = 'img-fluid'></img>                  
+                    <img alt='profile' src={profile} className = 'img-fluid'></img>                  
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-
                 <Link to='/tutor'>
-                    
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
-
                     <Link to='/courses'>
                         <button className={`btn btn-outline-success me-4 ${active === 'courses' && 'active'}`} onClick={() => setActive('courses')} id='button'>Courses</button>
                     </Link>
@@ -185,50 +169,54 @@ function Tutor(active, setActive) {
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
 
+
+                    <div>
+                    <h4 className='fst-italic my-4'>Contact</h4>
+
+                        <p>You can contact Juliana at <a className='mail-link' href='mailto: juliana@roots.ng'>juliana@roots.ng</a> or follow her on her socials.</p>
                     </div>
-
-                    <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <div className='row'>
-                                    <p className='col-6 fst-italic'>Total Course</p>
-                                    <p className='col-6 fst-italic text-end'>30</p>
-                                </div>
-
-                                <div className='row'>
-                                    <p className='col-6 fst-italic'>Ratings</p>
-                                    <p className='col-6 fst-italic text-end'><i className="fa-solid fa-star"></i> 4.9 (153)</p>
-                                </div>
-
-                                <div className='row'>
-                                    <p className='col-6 fst-italic'>Experience</p>
-                                    <p className='col-6 fst-italic text-end'>10 years</p>
-                                </div>
-
-                                <div className='row'>
-                                    <p className='col-6 fst-italic'>Language</p>
-                                    <p className='col-6 fst-italic text-end'>English, Igbo</p>
-                                </div>
-
-                                <div className='row'>
-                                    <p className='col-6 fst-italic'>Social</p>
-                                    <p className='col-6 fst-italic text-end'>
-                                        <span className='me-2'>
-                                            <i className="fa-brands fa-facebook-f"></i> 
-                                        </span>
-                                        <span className='me-2'>
-                                            <i className="fa-brands fa-twitter"></i>
-                                        </span>
-                                        <i className="fa-brands fa-linkedin"></i>
-                                    </p>
-                                </div>
+                </div>
+                <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
+                    <div className='card'>
+                        <div className='card-body'>
+                            <div className='row'>
+                                <p className='col-6 fst-italic'>Total Course</p>
+                                <p className='col-6 fst-italic text-end'>30</p>
                             </div>
-                        </div>   
+
+                            <div className='row'>
+                                <p className='col-6 fst-italic'>Ratings</p>
+                                <p className='col-6 fst-italic text-end'><i className="fa-solid fa-star"></i> 4.9 (153)</p>
+                            </div>
+
+                            <div className='row'>
+                                <p className='col-6 fst-italic'>Experience</p>
+                                <p className='col-6 fst-italic text-end'>10 years</p>
+                            </div>
+
+                            <div className='row'>
+                                <p className='col-6 fst-italic'>Language</p>
+                                <p className='col-6 fst-italic text-end'>English, Igbo</p>
+                            </div>
+
+                            <div className='row'>
+                                <p className='col-6 fst-italic'>Social</p>
+                                <p className='col-6 fst-italic text-end'>
+                                    <span className='me-2'>
+                                        <i className="fa-brands fa-facebook-f"></i> 
+                                    </span>
+                                    <span className='me-2'>
+                                        <i className="fa-brands fa-twitter"></i>
+                                    </span>
+                                    <i className="fa-brands fa-linkedin"></i>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>    
+               </div>
             </div>
         </section>
     )
 }
 
-export default Tutor;
+export default Contact;

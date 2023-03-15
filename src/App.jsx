@@ -11,6 +11,9 @@ import Course from './pages/Lessons/Learning/Screen'
 import LearningDashboard from './pages/Lessons/User/Dashboard.jsx';
 import PaymentSuccess from './pages/Lessons/User/PaymentSuccess'
 import Subscription from './pages/Lessons/User/Subscription';
+import Courses from './components/Tutor/Courses'
+import Review from './components/Tutor/Review'
+import Contact from './components/Tutor/Contact'
 
 function App() {
 
@@ -33,6 +36,9 @@ function App() {
           <Route path='/payment' element={<Payment />} />
           <Route path='/dashboard' element={<LearningDashboard />} />
           <Route path='/success' element={<PaymentSuccess />} />
+          <Route path='/courses' element={<Courses />} />
+          <Route path='/review' element={<Review />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/subscription' element={<Subscription />} />
         </Routes>
       </div>

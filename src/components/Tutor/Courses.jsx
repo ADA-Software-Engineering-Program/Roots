@@ -1,9 +1,9 @@
 import React from 'react';
-import './Profile.css';
+import '../../pages/Tutor/Profile/Profile.css';
 import profile from '@/assets/profile.png'
 import { Link } from 'react-router-dom'
 
-function Tutor(active, setActive) { 
+function Courses(active, setActive) { 
     return(
         <section className='tutor container-fluid p-3'>
             <div className='row'>
@@ -18,7 +18,6 @@ function Tutor(active, setActive) {
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-                    
                 <Link to='/tutor'>
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
@@ -33,19 +32,15 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+                    <div>
+                        <h2 className='fw-bold fst-italic mt-5'>Courses Taught</h2>
+
+                        <p><span className='fw-bold'>Basics</span>: Alphabetics in Igbo language</p>
+                        <p><span className='fw-bold'>Elementary</span>: Simple greetings and expressions</p>
+                        <p><span className='fw-bold'>Intermediate</span>: Everyday conversations in Igbo language</p>
+                        <p><span className='fw-bold'>Advanced</span>: Writing in Igbo language</p>
+                    </div>
                 </div>
                 
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
@@ -108,19 +103,15 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
-<div className='mt-2'>
-                <h2 className='about-heading fst-italic fw-bold'>About Juliana</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor of Igbo Language with over 7 years of experience. She has taught Igbo language to students of diverse backgrounds. Juliana strives to create a learning environment that is enjoyable, productive, and student-centric. She is passionate about imparting knowledge and also committed to helping her students reach their language learning goals.
-                </p>
-            </div>
 
-            <div className='mt-2'>
-                <h2 className='fst-italic'>Certifications</h2>
-                <p className='p-2'>
-                    Juliana is a Level 1 Tutor in Igbo Language, qualified as an Educationist and Linguistics Specialist. She holds certifications in Igbo Language Education, Applied Linguistics, and Educational Research.
-                </p>
-            </div>
+                    <div>
+                        <h2 className='fw-bold fst-italic mt-5'>Courses Taught</h2>
+
+                        <p><span className='fw-bold'>Basics</span>: Alphabetics in Igbo language</p>
+                        <p><span className='fw-bold'>Elementary</span>: Simple greetings and expressions</p>
+                        <p><span className='fw-bold'>Intermediate</span>: Everyday conversations in Igbo language</p>
+                        <p><span className='fw-bold'>Advanced</span>: Writing in Igbo language</p>
+                    </div>
                 </div>
                 <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
                     <div className='card'>
@@ -167,12 +158,9 @@ function Tutor(active, setActive) {
                 </div>
 
                 <div className='col-12 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-xs-12 ms-xl-5 p-3 about'>
-
                 <Link to='/tutor'>
-                    
                         <button className={`btn btn-outline-success me-4 ${active === 'about' && 'active'}`} onClick={() => setActive('about')} id='button'>About</button>
                     </Link>
-
                     <Link to='/courses'>
                         <button className={`btn btn-outline-success me-4 ${active === 'courses' && 'active'}`} onClick={() => setActive('courses')} id='button'>Courses</button>
                     </Link>
@@ -184,7 +172,14 @@ function Tutor(active, setActive) {
                     <Link to='/contact'>
                         <button className={`btn btn-outline-success me-4 ${active === 'contact' && 'active'}`} onClick={() => setActive('contact')} id='button'>Contact</button>
                     </Link> 
+                        <div>
+                            <h2 className='fw-bold fst-italic mt-5'>Courses Taught</h2>
 
+                            <p><span className='fw-bold'>Basics</span>: Alphabetics in Igbo language</p>
+                            <p><span className='fw-bold'>Elementary</span>: Simple greetings and expressions</p>
+                            <p><span className='fw-bold'>Intermediate</span>: Everyday conversations in Igbo language</p>
+                            <p><span className='fw-bold'>Advanced</span>: Writing in Igbo language</p>
+                        </div>
                     </div>
 
                     <div className='col-12 col-xl-3 col-lg-4 col-md-5 col-sm-12 col-xs-12'>
@@ -231,4 +226,4 @@ function Tutor(active, setActive) {
     )
 }
 
-export default Tutor;
+export default Courses;
